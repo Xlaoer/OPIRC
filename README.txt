@@ -1,6 +1,9 @@
 This is an official implementation of OPIRC. OPIRC is an
 Output-Interleaved Range Coding Algorithm, as described in Na Wang's paper
 "OPIRC: An Output-Interleaved Range Coding Algorithm" (https://ieeexplore.ieee.org/document/10992327).
+If you have any questions about this work or would like to explore collaboration opportunities, please don’t hesitate to contact the authors directly:
+- wna@usst.edu.cn
+- sjhenglin@gmail.com
 
 Here is the paper description and outcome variables comparison:
 Plain -> paper's RC
