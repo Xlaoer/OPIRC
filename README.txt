@@ -2,7 +2,7 @@ This is a public-domain implementation of OPIRC.
 OPIRC is an Output-Interleaved Range Coding Algorithm, published in Data Compression Conference 2025
 "OPIRC: An Output-Interleaved Range Coding Algorithm" (https://ieeexplore.ieee.org/document/10992327).
 
-OPIRC proposed a parallel range coding method that employs multiple encoders and decoders without the need for the swizzling step. It is achieved by designing a sliding window mechanism to interleave the outputs of multiple encoders, so that the positions of each encoder’s outputs in the bitstream follow a predictable and ordered pattern.This design saves bandwidth, reduces encoding latency, and enables each decoder to pre-locate the data it needs to read during decoding, thereby improving both compression and decompression performance.
+OPIRC is a parallel range coding method that employs multiple encoders and decoders without the need for the swizzling step. It is achieved by designing a sliding window mechanism to interleave the outputs of multiple encoders, so that the positions of each encoder’s outputs in the bitstream follow a predictable and ordered pattern.This design saves bandwidth, reduces encoding latency, and enables each decoder to pre-locate the data it needs to read during decoding, thereby improving both compression and decompression performance.
 
 If you have any questions about this work or would like to explore collaboration opportunities, please don’t hesitate to contact the authors directly:
 - wna@usst.edu.cn
